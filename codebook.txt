@@ -1,7 +1,30 @@
 NEW SUMMARY
 
 Mean and standard deviation data collected from accelerometer of Samsung Galaxy S were extracted from the raw data (see original codebook below).
-These values were then averaged according to the activity type and subject # and save into an csv file (Summary.csv)
+These values were then averaged according to the activity type and subject # and save into an csv file (Summary.csv) 
+Raw acc and gyro data was measured in units of g and radians/sec, respectively. But the data that was summarized here are relative data [-1,1], so no units.
+Here is the exhaustive list of the summarized elements:
+
+"tBodyAccmeanX"                "tBodyAccmeanY"                "tBodyAccmeanZ"                "tBodyAccstdX"                         
+"tGravityAccmeanX"             "tGravityAccmeanY"             "tGravityAccmeanZ"             "tGravityAccstdX"             
+"tGravityAccstdY"              "tGravityAccstdZ"              "tBodyAccJerkmeanX"            "tBodyAccJerkmeanY"           
+"tBodyAccJerkmeanZ"            "tBodyAccJerkstdX"             "tBodyAccJerkstdY"             "tBodyAccJerkstdZ"            
+"tBodyGyromeanX"               "tBodyGyromeanY"               "tBodyGyromeanZ"               "tBodyGyrostdX"               
+"tBodyGyrostdY"                "tBodyGyrostdZ"                "tBodyGyroJerkmeanX"           "tBodyGyroJerkmeanY"          
+"tBodyGyroJerkmeanZ"           "tBodyGyroJerkstdX"            "tBodyGyroJerkstdY"            "tBodyGyroJerkstdZ"           
+"tBodyAccMagmean"              "tBodyAccMagstd"               "tGravityAccMagmean"           "tGravityAccMagstd"           
+"tBodyAccJerkMagmean"          "tBodyAccJerkMagstd"           "tBodyGyroMagmean"             "tBodyGyroMagstd"             
+"tBodyGyroJerkMagmean"         "tBodyGyroJerkMagstd"          "fBodyAccmeanX"                "fBodyAccmeanY"               
+"fBodyAccmeanZ"                "fBodyAccstdX"                 "fBodyAccstdY"                 "fBodyAccstdZ"                
+"fBodyAccmeanFreqX"            "fBodyAccmeanFreqY"            "fBodyAccmeanFreqZ"            "fBodyAccJerkmeanX"           
+"fBodyAccJerkmeanY"            "fBodyAccJerkmeanZ"            "fBodyAccJerkstdX"             "fBodyAccJerkstdY"            
+"fBodyAccJerkstdZ"             "fBodyAccJerkmeanFreqX"        "fBodyAccJerkmeanFreqY"        "fBodyAccJerkmeanFreqZ"       
+"fBodyGyromeanX"               "fBodyGyromeanY"               "fBodyGyromeanZ"               "fBodyGyrostdX"               
+"fBodyGyrostdY"                "fBodyGyrostdZ"                "fBodyGyromeanFreqX"           "fBodyGyromeanFreqY"          
+"fBodyGyromeanFreqZ"           "fBodyAccMagmean"              "fBodyAccMagstd"               "fBodyAccMagmeanFreq"         
+"fBodyBodyAccJerkMagmean"      "fBodyBodyAccJerkMagstd"       "fBodyBodyAccJerkMagmeanFreq"  "fBodyBodyGyroMagmean"        
+"fBodyBodyGyroMagstd"          "fBodyBodyGyroMagmeanFreq"     "fBodyBodyGyroJerkMagmean"     "fBodyBodyGyroJerkMagstd"     
+"fBodyBodyGyroJerkMagmeanFreq" "tBodyAccstdY"                 "tBodyAccstdZ"
 
 
 
