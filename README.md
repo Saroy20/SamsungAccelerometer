@@ -29,4 +29,4 @@ Data can be found here : https://d396qusza40orc.cloudfront.net/getdata%2Fproject
 
 OUTPUT :
 
-Summary.csv
+Summary.txt

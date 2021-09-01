@@ -48,4 +48,4 @@ Datastdmean<-Datastdmean %>% group_by(activity, subject)
 Summary<-Datastdmean %>% summarise(across(everything(),mean))
 
 #### Write data set ####
-write.csv(Summary,"Summary.csv", row.names = FALSE)
+write.table(Summary,"Summary.txt", row.names = FALSE)
