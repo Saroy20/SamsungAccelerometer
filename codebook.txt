@@ -1,3 +1,12 @@
+NEW SUMMARY
+
+Mean and standard deviation data collected from accelerometer of Samsung Galaxy S were extracted from the raw data (see original codebook below).
+These values were then averaged according to the activity type and subject # and save into an csv file (Summary.csv)
+
+
+
+ORIGINAL CODEBOOK:
+
 Feature Selection 
 =================
 
