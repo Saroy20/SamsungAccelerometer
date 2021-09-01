@@ -35,14 +35,13 @@ X_test$activity<-Y_testnames
 
 #### Merge data ####
 Merged<-rbind(X_test,X_train)
-Merged<-Merged%>%relocate(activity)%>%relocate(subject)
-
 
 #### Extract only mean and std data #####
 Datasnames<-grep("std|mean",features)
-Datastdmean<-Merged[Datasnames]
+Datastdmean<-Merged[c(Datasnames,length(features)+1,length(features)+2)]
 
 #### Group by activity and subject and get mean ####
+Datastdmean<-Datastdmean%>%relocate(activity)%>%relocate(subject)
 Datastdmean$subject<-as.factor(Datastdmean$subject)
 Datastdmean$activity<-as.factor(Datastdmean$activity)
 Datastdmean<-Datastdmean %>% group_by(activity, subject) 
